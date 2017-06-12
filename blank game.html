@@ -2,8 +2,24 @@
 <html>
 	<head>
 		<title>Harry Quest</title>
-		<script src="fuctions.js"></script>
-		<script src="game.js"></script>
+		<script>
+		function gameDialogue(string) {
+	alert(string);
+}
+
+function gameDescisionYN(question, yOutcome, nOutcome) {
+	var userAnswer = prompt(question);
+	
+	if (userAnswer === "yes") {
+		gameDialogue(yOutcome);
+	} else {
+		gameDialogue(nOutcome);
+	}
+}
+
+
+gameDialogue("This is just an example on how to use this engine!");
+		</script>
 	</head>
 	<body>
 	</body>
