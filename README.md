@@ -53,3 +53,4 @@ function gameDecisionYN(question, yOutcome, nOutcome) {
 // Usage:
 gameDecisionYN("Wanna hang?", "Sweet!", "Bummer...")
 ```
+(Note: I know this is unfinished, I will finish it when I have time, ok? Ok!)
